@@ -2,12 +2,11 @@
 Les hôtes
 =========
 
-Un hôte est toute entité possédant une adresse IP correspondant à une ressource du système d'informations.
-Exemples : Un serveur, une imprimante réseau, un serveur NAS, une base de données, une sonde de température, une caméra IP...
+Afin de représenter un hôte sur une carte il faut ajouter une icone de type "Host"
 
-Tous les ajouts d'hôtes se font dans le menu **Configuration** ==> **Hôtes** ==> **Ajouter** de Centreon.
+Tous les ajouts d'hôtes se font dans le menu **Editer la carte** ==> **Ajouter une icône** ==> **Host**.
 
-.. image :: /images/guide_utilisateur/configuration/02addhost.png
+.. image :: /images/guide_utilisateur/configuration/maps/menu_add_host.png
    :align: center 
 
 ***********************
@@ -23,7 +22,7 @@ Onglet General
 +------------+----------------+------------------------------------------------------+
 | Valeur     | Par défaut     | Description                                          |
 +============+================+======================================================+
-| host_name  |                | Nom de l'hôte comme définit par dans Centreon        |
+| host_name  |                | Nom de l'hôte comme définit dans Centreon            |
 +------------+----------------+------------------------------------------------------+
 | backend_id | Hérité(global) | Backend-ID de type centreonbroker                    |
 +------------+----------------+------------------------------------------------------+
