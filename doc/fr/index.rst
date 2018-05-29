@@ -1,9 +1,7 @@
-Bienvenue dans la documentation Centreon !
+Bienvenue dans la documentation EVA !
 ==========================================
 
-Centreon est un logiciel open source qui vous permet de superviser l'ensemble des éléments de votre système d'informations.
-
-Nouveau ! :ref:`Comment gagner du temps avec Centreon IMP ? <impconfiguration>`
+EVA est un logiciel open source qui vous permet de visualiser des données de supervision de l'ensemble des éléments de votre système d'informations.
 
 Sommaire :
 
