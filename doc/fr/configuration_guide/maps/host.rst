@@ -6,7 +6,7 @@ Afin de représenter un hôte sur une carte il faut ajouter une icone de type "H
 
 Tous les ajouts d'hôtes se font dans le menu **Editer la carte** ==> **Ajouter une icône** ==> **Host**.
 
-.. image :: /images/guide_utilisateur/configuration/maps/menu_add_host.png
+.. image :: /images/guide_utilisateur/carte/menu_add_host.png
    :align: center 
 
 ***********************
