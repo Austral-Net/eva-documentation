@@ -9,6 +9,7 @@ Pensez à mettre en place une stratégie de globalisation de la configuration af
 .. toctree::
    :maxdepth: 2
 
+   maps/index
    actions
    hosts
    services
