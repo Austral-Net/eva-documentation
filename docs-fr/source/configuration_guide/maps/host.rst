@@ -2,12 +2,17 @@
 Les hôtes
 =========
 
-Un hôte est toute entité possédant une adresse IP correspondant à une ressource du système d'informations.
-Exemples : Un serveur, une imprimante réseau, un serveur NAS, une base de données, une sonde de température, une caméra IP...
+Un hôte peut être représenté sour forme d'icône, de widget ou de ligne.
 
-Tous les ajouts d'hôtes se font dans le menu **Configuration** ==> **Hôtes** ==> **Ajouter** de Centreon.
+La représentation la plus adaptée est l'icône.
 
-.. image :: /images/configuration/form_add_map.png
+******************************
+Ajouter une icône de type Hôte
+******************************
+
+Tous les ajouts d'hôtes se font dans le menu **Editer la carte** ==> **Ajouter un icône** ==> **Host**.
+
+.. image :: /images/configuration/map_add_icone_host_01.png
    :align: center 
 
 ***********************

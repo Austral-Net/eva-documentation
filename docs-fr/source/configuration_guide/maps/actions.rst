@@ -22,7 +22,7 @@ Afin de pouvoir cloner/déplacer/modifier/supprimer des objets de d'une carte, i
 
 Vous pouvez maintenant cloner/déplacer/modifier/supprimer des objets.
 
-.. note:: Il ne faut pas oublier de désactiver le mode édition une fois le modification terminée à l'aide du menu **Editer la carte** ==> **Tout Bloquer/Débloquer**
+.. note:: Il ne faut pas oublier de désactiver le mode édition une fois les modifications terminées à l'aide du menu **Editer la carte** ==> **Tout Bloquer/Débloquer**
 
 
 *****************
@@ -72,53 +72,28 @@ Pour dupliquer un objet :
 .. image :: /images/configuration/map_clone_object_02.png
    :align: center 
 
+
 *****************
-Changement massif
+Modifier un objet
 *****************
 
-Principe
-========
+Pour mofdifier un objet :
 
-Les changements massifs permettent d'appliquer un changement sur plusieurs objets.
+1.	**Clic-droit sur l'objet** que vous souhaitez modifier
+2.	Dans la menu, cliquer sur **Modify object**
 
-Exemple : L'ensemble des serveurs web précédemment créés changent de communauté SNMP.
-Un changement massif permet de modifier cette communauté sans avoir la peine de modifier chaque fiche de chaque hôte unitairement.
+.. image :: /images/configuration/map_modify_object_01.png
+   :align: center 
 
-Pratique
-========
-
-Pour effectuer un changement massif :
-
-#.	Sélectionnez les objets que vous souhaitez modifier
-#.	Dans le menu **More actions...** cliquez sur **Changement massif**
-
-La fenêtre de changement s'ouvre, il existe deux types de changements :
-
-*	Incrémentale : signifie que la modification va s'ajouter aux options déjà existantes
-*	Remplacement : signifie que la modification va écraser les options déjà existantes
 
 ******************
-Activer/Désactiver
+Supprimer un objet
 ******************
 
-Principe
-========
+Pour supprimer un objet :
 
-L'activation et la désactivation des objets permettent de prendre en compte ou non l'objet lors de la génération de la configuration.
-Le principal intérêt est de pouvoir garder la configuration d'un objet sans pour autant l'appliquer.
+1.	**Clic-droit sur l'objet** que vous souhaitez supprimer
+2.	Dans la menu, cliquer sur **Delete object**
 
-Pratique
-========
-
-Pour activer/désactiver un objet :
-
-#.	Sélectionnez les objets que vous souhaitez modifier
-#.	Dans le menu **More actions...** cliquez sur **Activer/Désactiver**
-
-Il est également possible d'activer ou de désactiver un objet via le champ "Statut" de la fiche de détails de l'objet ou en utilisant les icônes suivantes :
-
-*	|enabled| pour activer
-*	|disabled| pour désactiver
-
-.. |enabled|    image:: /images/enabled.png
-.. |disabled|    image:: /images/disabled.png
+.. image :: /images/configuration/map_delete_object_01.png
+   :align: center 
