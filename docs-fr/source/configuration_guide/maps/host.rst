@@ -15,44 +15,56 @@ Tous les ajouts d'hôtes se font dans le menu **Editer la carte** ==> **Ajouter 
 .. image :: /images/configuration/map_add_icone_host_01.png
    :align: center 
 
-***********************
-Configuration de l'hôte
-***********************
+**Cliquer ensuite sur une zone de la carte** pour indiquer la position de l'objet
 
-Liste des champs
-================
+Configuration de l'hôte
+=======================
+
+Configuration minimale
+----------------------
+
+1. Sur l’onglet General, sélectionner le **host_name** depuis la liste déroulante
+2. Cliquer sur **Save** pour créer l’hôte
+3. L’hôte apparait sur la carte
+
+.. image :: /images/configuration/map_add_icone_host_02.png
+   :align: center 
+
+
+Configuration avancée
+---------------------
 
 Onglet General
---------------
+++++++++++++++
 
-+------------+----------------+------------------------------------------------------+
-| Valeur     | Par défaut     | Description                                          |
-+============+================+======================================================+
-| host_name  |                | Nom de l'hôte comme définit par dans Centreon        |
-+------------+----------------+------------------------------------------------------+
-| backend_id | Hérité(global) | Backend-ID de type centreonbroker                    |
-+------------+----------------+------------------------------------------------------+
-| x          |                | coordonées sur l'axe des X                           |
-+------------+----------------+------------------------------------------------------+
-| y          |                | coordonées sur l'axe des Y                           |
-+------------+----------------+------------------------------------------------------+
-| z          |                | coordonées sur l'axe des Z                           |
-+------------+----------------+------------------------------------------------------+
-| object_id  |                | Identifiant unique de l'objet généré automatiquement |
-+------------+----------------+------------------------------------------------------+
++----------------+----------------+------------------------------------------------------+
+| Valeur         | Par défaut     | Description                                          |
++================+================+======================================================+
+| **host_name**  |                | Nom de l'hôte comme définit dans Centreon            |
++----------------+----------------+------------------------------------------------------+
+| backend_id     | Hérité(global) | Backend-ID de type centreonbroker                    |
++----------------+----------------+------------------------------------------------------+
+| x              |                | coordonées sur l'axe des X                           |
++----------------+----------------+------------------------------------------------------+
+| y              |                | coordonées sur l'axe des Y                           |
++----------------+----------------+------------------------------------------------------+
+| z              |                | coordonées sur l'axe des Z (profondeur)              |
++----------------+----------------+------------------------------------------------------+
+| object_id      |                | Identifiant unique de l'objet généré automatiquement |
++----------------+----------------+------------------------------------------------------+
 
 Onglet Appearance
------------------
++++++++++++++++++
 
 +---------------------+------------------------+----------------------------------------------------------------------+
 | Valeur              | Par défaut             | Description                                                          |
 +=====================+========================+======================================================================+
-| view_type           | icon                   | Cette option définit le type de rendu de cet objet. Les valeurs      |
+| **view_type**       | icon                   | Cette option définit le type de rendu de cet objet. Les valeurs      |
 |                     |                        | possibles sont: "Icon ", "Line " ou "Gadget"                         |
 +---------------------+------------------------+----------------------------------------------------------------------+
-| ?                   | ?                      | **Option pour Icon**                                                 |
+|                     | **Option pour Icon**   |                                                                      |
 +---------------------+------------------------+----------------------------------------------------------------------+
-| iconset             | Hérité(global)         | Choix du jeu d'icones                                                |
+| **iconset**         | Hérité(global)         | Choix du jeu d'icones                                                |
 +---------------------+------------------------+----------------------------------------------------------------------+
 | icon_size           | Hérité(nagvis.ini.php) | Changer la taille d'affiche du jeu d'icones sur la carte. Si elle    |
 |                     |                        | est laissée vide, les images IconSet seront affichées à leur taille  |
@@ -61,9 +73,9 @@ Onglet Appearance
 |                     |                        | également fournir deux entiers séparés par des virgules pour         |
 |                     |                        | spécifier des valeurs différentes pour la largeur et la hauteur.     |
 +---------------------+------------------------+----------------------------------------------------------------------+
-| ?                   | ?                      | **Option pour Line**                                                 |
+|                     | **Option pour Line**   |                                                                      |
 +---------------------+------------------------+----------------------------------------------------------------------+
-| line_type           | Hérité(global)         | Spécifier le type de ligne (sans flèche, avec une flèche ou avec     |
+| **line_type**       | Hérité(global)         | Spécifier le type de ligne (sans flèche, avec une flèche ou avec     |
 |                     |                        | deux flèches)                                                        |
 +---------------------+------------------------+----------------------------------------------------------------------+
 | line_cut            | 0.5                    | Les lignes avec deux parties ont un espace au milieu de la ligne.    |
@@ -76,29 +88,47 @@ Onglet Appearance
 | line_weather_colors | Hérité(global)         | Cela définit les couleurs des couleurs weathermap en fonction des    |
 |                     |                        | différents niveaux de pourcentage.                                   |
 +---------------------+------------------------+----------------------------------------------------------------------+
-| ?                   | ?                      | **Option pour Gadget**                                               |
+|                     | **Option pour Gadget** |                                                                      |
 +---------------------+------------------------+----------------------------------------------------------------------+
-| gadget_url          | ?                      | La valeur peut être un script gadget situé dans (nagvis/gadgets),    |
+| **gadget_url**      |                        | La valeur peut être un script gadget situé dans (nagvis/gadgets),    |
 |                     |                        | par exemple "std_speedometer.php"                                    |
 +---------------------+------------------------+----------------------------------------------------------------------+
-| gadget_scale        | ?                      | L'échelle du gadget. L'échelle par défaut est 100 (pour cent). Les   |
+| gadget_scale        |                        | L'échelle du gadget. L'échelle par défaut est 100 (pour cent). Les   |
 |                     |                        | gadgets doivent pouvoir être redimensionnés par ce paramètre.        |
 +---------------------+------------------------+----------------------------------------------------------------------+
-| gadgets_opts        | ?                      | Paramêtres facultatifs spécifiques aux gadgets. Le contenu peut être |
+| gadgets_opts        |                        | Paramêtres facultatifs spécifiques aux gadgets. Le contenu peut être |
 |                     |                        | défini librement pour chaque gadget. La valeur est traitée comme GET |
 |                     |                        | param "opts"                                                         |
 +---------------------+------------------------+----------------------------------------------------------------------+
 
 Onglet Status
--------------
++++++++++++++
 
-exclude_members
-exclude_members_states
-only_hard_states
-recognize_services
++------------------------+----------------+---------------------------------------------------------------------------+
+| Valeur                 | Par défaut     | Description                                                               |
++========================+================+===========================================================================+
+| exclude_members        | ?              | Il est possible d'exclure complètement les objets membres lors de la      |
+|                        |                | récupération des informations sur l'objet à partir du backend. Les        |
+|                        |                | éléments filtrés n'apparaîtront pas dans cet objet. Pour plus de détails  |
+|                        |                | sur la syntaxe du filtre, consultez la définition d'exclusion regex.      |
++------------------------+----------------+---------------------------------------------------------------------------+
+| exclude_members_states | ?              | Il est possible d'exclure un ou plusieurs états des membres lors du       |
+|                        |                | calcul de l'état récapitulatif des objets. Les éléments filtrés           |
+|                        |                | apparaîtront dans les listes de membres mais ne seront pas utilisés pour  |
+|                        |                | les calculs de résumé d'état. Pour plus de détails sur la syntaxe du      |
+|                        |                | filtre, consultez la définition d'exclusion regex.                        |
++------------------------+----------------+---------------------------------------------------------------------------+
+| only_hard_states       | Hérité(global) | Définit si les états soft doivent être ignorés.                           |
++------------------------+----------------+---------------------------------------------------------------------------+
+| recognize_services     | Hérité(global) | Définit si les services de l'hôte affectent l'état affiché. S'il est      |
+|                        |                | défini sur "1", un service critique sur l'hôte entraînera également un    |
+|                        |                | affichage de l'état de l'hôte. S'il est réglé sur "Oui", seul l'état de   |
+|                        |                | l'hôte Centreon (UP ou DOWN) sera utilisé et les services de l'hôte       |
+|                        |                | seront ignorés.                                                           |
++------------------------+----------------+---------------------------------------------------------------------------+
 
 Onglet Actions
---------------
+++++++++++++++
 
 context_menu
 context_template
@@ -114,7 +144,7 @@ url
 url_targert
 
 Onglet Label
-------------
+++++++++++++
 
 label_show
 label_text
@@ -127,7 +157,7 @@ label_style
 label_maxlen
 
 Onglet Worlmap
---------------
+++++++++++++++
 
 min_zoom
 max_zoom
