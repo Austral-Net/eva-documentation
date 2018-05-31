@@ -2,59 +2,74 @@
 Actions génériques
 ==================
 
+***********************
+Activer le mode édition
+***********************
 
-Au sein du menu **Configuration -> Cartes** il est possible d'effectuer certaines actions "génériques" sur les différents cartes.
+Afin de pouvoir cloner/déplacer/modifier/supprimer des objets de d'une carte, il faut activer le mode édition
 
-*****************
-Ajouter/Supprimer
-*****************
+1. Etendre le menu de navigation des vues
+2. Cliquer sur **modifier la vue**
 
-L'ajout d'un nouvel objet se fait via le formulaire **Ajouter** en haut de la page.
-
-.. image :: /images/configuration/form_add_map.png
+.. image :: /images/configuration/menu_active_edit_mode_01.png
    :align: center 
 
-Pour supprimer un objet :
+3. Cliquer sur **Editer la carte** ==> **Tout Bloquer/Débloquer**
+4. L’indicateur **Edit Mode!** apparait. Vous êtes en mode édition
 
-#.	Sélectionnez le ou les objets que vous souhaitez supprimer en cochant la ou les cases près du nom de celui-ci
-#.	Dans le menu **More actions...** cliquez sur **Supprimer**
+.. image :: /images/configuration/menu_active_edit_mode_02.png
+   :align: center 
 
-**Attention** : La suppression d'un objet est définitive. Si vous avez supprimé un objet par accident, il vous faudra le recréer.
-De même, la suppression d'un objet supprime automatiquement tous les objets qui sont liés à lui et ne peuvent vivre sans.
-Exemple : La suppression d'un hôte entraine la suppression de tous les services associés à cet hôte.
+Vous pouvez maintenant cloner/déplacer/modifier/supprimer des objets.
 
-Pour modifier un objet, cliquez sur son nom.
+.. note:: Il ne faut pas oublier de désactiver le mode édition une fois le modification terminée à l'aide du menu **Editer la carte** ==> **Tout Bloquer/Débloquer**
 
-*********
-Dupliquer
-*********
+
+*****************
+Ajouter un objet
+*****************
+
+L’ajout d’objet sur la carte se fait depuis le menu **Editer la carte** ==> **Ajouter...** . 3 catégories d’objets sont disponibles:
+
+1. Icône
+2. Ligne
+3. Objet spécial 
+
+.. image :: /images/configuration/menu_add_object.png
+   :align: center 
+
+
+******************
+Dupliquer un objet
+******************
 
 Principe
 ========
 
 La duplication d'un objet permet de copier/cloner celui-ci afin de pouvoir réutiliser ses attributs pour la création d'un nouvel objet.
-Exemple : J'ai 10 serveurs web identiques à superviser :
+Exemple : J'ai 10 serveurs web identiques à représenter :
 
 *	J'ajoute le premier serveur web avec tous les attributs nécessaires
-*	Je duplique cet hôte 9 fois
-*	Je n'ai plus qu'à changer les noms d'hôtes et les adresses IP de chaque duplication pour les adapter aux 9 autres serveurs web à superviser
+*	Je duplique cet objet 9 fois
+*	Je n'ai plus qu'à changer le noms de chaque duplication pour les adapter aux 9 autres serveurs web à représenter
 
-Grâce à cette méthode, il n'est plus nécessaire de créer unitairement chaque hôte.
+Grâce à cette méthode, il n'est plus nécessaire de créer unitairement chaque objet.
 
 Pratique
 ========
 
-Pour dupliquer un hôte :
+Pour dupliquer un objet :
 
-1.	Sélectionnez l'hôte que vous souhaitez dupliquer
-2.	Dans la colonne **Options**, entrez le nombre de duplication que vous souhaitez obtenir
+1.	**Clic-droit sur l'objet** que vous souhaitez dupliquer
+2.	Dans la menu, cliquer sur **Clone object**
 
-.. image :: /images/refresh.png
+.. image :: /images/configuration/map_clone_object_01.png
    :align: center 
 
-3.	Dans le menu **More actions...** cliquez sur **Dupliquer**
+3.	**Cliquer ensuite sur une zone de la carte** pour indiquer la position de l'objet
+4.	**Modifier le nom** de l'objet puis cliquer sur **Save**
 
-.. image :: /images/refresh.png
+.. image :: /images/configuration/map_clone_object_02.png
    :align: center 
 
 *****************
