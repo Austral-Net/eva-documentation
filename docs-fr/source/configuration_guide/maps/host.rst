@@ -7,7 +7,7 @@ Un hôte peut être représenté sour forme d'icône, de widget ou de ligne.
 La représentation la plus adaptée est l'icône.
 
 *****************************
-Ajouter un objet de type Hôte
+Ajouter un objet de type hôte
 *****************************
 
 Tous les ajouts d'hôtes se font dans le menu **Editer la carte** ==> **Ajouter un icône** ==> **Host**.
@@ -17,11 +17,12 @@ Tous les ajouts d'hôtes se font dans le menu **Editer la carte** ==> **Ajouter 
 
 **Cliquer ensuite sur une zone de la carte** pour indiquer la position de l'objet. La fenêtre de configuration apparait.
 
-Configuration de l'hôte
-=======================
+********************************
+Configurer un objet de type hôte
+********************************
 
 Configuration minimale
-----------------------
+======================
 
 1. Sur l’onglet General, sélectionner le **host_name** depuis la liste déroulante
 2. Cliquer sur **Save** pour créer l’hôte
@@ -31,7 +32,7 @@ Configuration minimale
    :align: center 
 
 Configuration avancée
----------------------
+=====================
 
 Plusieurs onglets sont disponibles pour la configuration de l'objet. Chaque onglet regroupe plusieurs propriétés qui permettent de modifier l'aspect ou le comportement de l'objet hôte:
 
@@ -44,7 +45,7 @@ Plusieurs onglets sont disponibles pour la configuration de l'objet. Chaque ongl
 
 
 Onglet General
-++++++++++++++
+--------------
 
 +----------------+----------------+------------------------------------------------------+
 | Valeur         | Par défaut     | Description                                          |
@@ -63,7 +64,7 @@ Onglet General
 +----------------+----------------+------------------------------------------------------+
 
 Onglet Appearance
-+++++++++++++++++
+-----------------
 
 +---------------------+------------------------+----------------------------------------------------------------------+
 | Valeur              | Par défaut             | Description                                                          |
@@ -111,7 +112,7 @@ Onglet Appearance
 +---------------------+------------------------+----------------------------------------------------------------------+
 
 Onglet Status
-+++++++++++++
+-------------
 
 +------------------------+----------------+---------------------------------------------------------------------------+
 | Valeur                 | Par défaut     | Description                                                               |
@@ -137,7 +138,7 @@ Onglet Status
 +------------------------+----------------+---------------------------------------------------------------------------+
 
 Onglet Actions
-++++++++++++++
+--------------
 
 +--------------------+------------------------+------------------------------------------------------------------------+
 | Valeur             | Par défaut             | Description                                                            |
@@ -175,7 +176,7 @@ Onglet Actions
 +--------------------+------------------------+------------------------------------------------------------------------+
 
 Onglet Label
-++++++++++++
+------------
 
 +-----------------------+----------------+----------------------------------------------------------------------------------+
 | Valeur                | Par défault    | Description                                                                      |
@@ -205,7 +206,7 @@ Onglet Label
 +-----------------------+----------------+----------------------------------------------------------------------------------+
 
 Onglet Worldmap
-+++++++++++++++
+---------------
 
 +----------+------------+----------------------------------------------------------+
 | Valeur   | Par défaut | Description                                              |
