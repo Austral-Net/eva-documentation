@@ -88,6 +88,15 @@ html_theme = 'default'
 html_static_path = ['_static']
 
 
+def setup(app):
+    app.add_stylesheet('theme_overrides.css')
+#html_context = {
+ #   'css_files': [
+  #      'https://media.readthedocs.org/css/readthedocs-doc-embed.css',
+   #     'https://media.readthedocs.org/css/sphinx_rtd_theme.css',
+    #    '_static/theme_overrides.css',  # override wide tables in RTD theme
+     #   ],
+     #}
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
