@@ -6,16 +6,16 @@ Un hôte peut être représenté sour forme d'icône, de widget ou de ligne.
 
 La représentation la plus adaptée est l'icône.
 
-******************************
-Ajouter une icône de type Hôte
-******************************
+*****************************
+Ajouter un objet de type Hôte
+*****************************
 
 Tous les ajouts d'hôtes se font dans le menu **Editer la carte** ==> **Ajouter un icône** ==> **Host**.
 
 .. image :: /images/configuration/map_add_icone_host_01.png
    :align: center 
 
-**Cliquer ensuite sur une zone de la carte** pour indiquer la position de l'objet
+**Cliquer ensuite sur une zone de la carte** pour indiquer la position de l'objet. La fenêtre de configuration apparait.
 
 Configuration de l'hôte
 =======================
@@ -30,9 +30,18 @@ Configuration minimale
 .. image :: /images/configuration/map_add_icone_host_02.png
    :align: center 
 
-
 Configuration avancée
 ---------------------
+
+Plusieurs onglets sont disponibles pour la configuration de l'objet. Chaque onglet regroupe plusieurs propriétés qui permettent de modifier l'aspect ou le comportement de l'objet hôte:
+
+* **General** - Modifier l'hôte associé à l'objet, positionner l'objet
+* **Appearance** - Modifier le type de rendu pour l'objet
+* **Status** - Modifier les paramètres de calcul du statut de l'objet
+* **Actions** - Modifier les paramètres d'interactions avec l'objet
+* **Label** - Modifier l'apparence la positon du label
+* **Worldmap** - Modifier le comportement de l'objet sur une carte de type Worldmap
+
 
 Onglet General
 ++++++++++++++
@@ -195,8 +204,8 @@ Onglet Label
 | label_maxlen          | Hérité(global) | Nombre maximum de caractère à afficher pour le label                             |
 +-----------------------+----------------+----------------------------------------------------------------------------------+
 
-Onglet Worlmap
-++++++++++++++
+Onglet Worldmap
++++++++++++++++
 
 +----------+------------+----------------------------------------------------------+
 | Valeur   | Par défaut | Description                                              |
