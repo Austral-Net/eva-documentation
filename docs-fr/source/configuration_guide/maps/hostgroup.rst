@@ -17,9 +17,9 @@ Tous les ajouts de groupe d'hôtes se font dans le menu **Editer la carte** ==> 
 
 **Cliquer ensuite sur une zone de la carte** pour indiquer la position de l'objet. La fenêtre de configuration apparait.
 
-*************************************
-Configurer un objet de groupe d'hôtes
-*************************************
+******************************************
+Configurer un objet de type groupe d'hôtes
+******************************************
 
 Configuration minimale
 ======================
@@ -34,7 +34,7 @@ Configuration minimale
 Configuration avancée
 =====================
 
-Plusieurs onglets sont disponibles pour la configuration de l'objet. Chaque onglet regroupe plusieurs propriétés qui permettent de modifier l'aspect ou le comportement de l'objet groupe d'hôte:
+Plusieurs onglets sont disponibles pour la configuration de l'objet. Chaque onglet regroupe plusieurs propriétés qui permettent de modifier l'aspect ou le comportement de l'objet groupe d'hôtes:
 
 * **General** - Modifier le groupe d'hôte associé à l'objet, positionner l'objet
 * **Appearance** - Modifier le type de rendu pour l'objet
@@ -50,7 +50,7 @@ Onglet General
 +----------------------+----------------+------------------------------------------------------+
 | Valeur               | Par défaut     | Description                                          |
 +======================+================+======================================================+
-| **host_groupname**   |                | Nom du groupe d'hôtes comme définit dans Centreon    |
+| **hostgroup_name**   |                | Nom du groupe d'hôtes comme définit dans Centreon    |
 +----------------------+----------------+------------------------------------------------------+
 | backend_id           | Hérité(global) | Backend-ID de type centreonbroker                    |
 +----------------------+----------------+------------------------------------------------------+
