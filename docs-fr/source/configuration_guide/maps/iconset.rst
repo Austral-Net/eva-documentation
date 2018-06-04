@@ -9,155 +9,134 @@ Un iconset complet est composé de 22 fichiers.
 liste des 22 fichiers
 =====================
 
-+-----------------------------+--------------------------------+
-| Filename                    | Description                    |
-+=============================+================================+
-| <set>_critical.png          | Critical state                 |
-+-----------------------------+--------------------------------+
-| <set>_critical_ack.png      | Acknowledged critical state    |
-+-----------------------------+--------------------------------+
-| <set>_critical_dt.png       | Critical state in downtime     |
-+-----------------------------+--------------------------------+
-| <set>_down.png              | Down state (Host)              |
-+-----------------------------+--------------------------------+
-| <set>_down_ack.png          | Acknowledged down state        |
-+-----------------------------+--------------------------------+
-| <set>_down_dt.png           | Down state in downtime         |
-+-----------------------------+--------------------------------+
-| <set>_error.png             | Error while fetching status    |
-+-----------------------------+--------------------------------+
-| <set>_ok.png                | OK state                       |
-+-----------------------------+--------------------------------+
-| <set>_ok_dt.png             | OK state in downtime           |
-+-----------------------------+--------------------------------+
-| <set>_pending.png           | PENDING state                  |
-+-----------------------------+--------------------------------+
-| <set>_unchecked.png         | Unchecked service (pending)    |
-+-----------------------------+--------------------------------+
-| <set>_unknown.png           | Unknown state                  |
-+-----------------------------+--------------------------------+
-| <set>_unknown_ack.png       | Acknowledged unknown state     |
-+-----------------------------+--------------------------------+
-| <set>_unknown_dt.png        | Unknown state in downtime      |
-+-----------------------------+--------------------------------+
-| <set>_unreachable.png       | Unreachable state (Host)       |
-+-----------------------------+--------------------------------+
-| <set>_unreachable_ack.png   | Acknowledged unreachable state |
-+-----------------------------+--------------------------------+
-| <set>_unreachable_dt.png    | Unreachable state in downtime  |
-+-----------------------------+--------------------------------+
-| <set>_up.png                | Up state (Host)                |
-+-----------------------------+--------------------------------+
-| <set>_up_dt.png             | Up state in downtime           |
-+-----------------------------+--------------------------------+
-| <set>_warning.png           | Warning state                  |
-+-----------------------------+--------------------------------+
-| <set>_warning_ack.png       | Acknowledged warning state     |
-+-----------------------------+--------------------------------+
-| <set>_warning_dt.png        | Warning state in downtime      |
-+-----------------------------+--------------------------------+
++-----------------------------+--------------------------------------+
+| Nom du Fichier              | Statut                               |
++=============================+======================================+
+| <set>_critical.png          | Critical                             |
++-----------------------------+--------------------------------------+
+| <set>_critical_ack.png      | Critical (Acknowledged)              |
++-----------------------------+--------------------------------------+
+| <set>_critical_dt.png       | Critical (Downtime)                  |
++-----------------------------+--------------------------------------+
+| <set>_down.png              | Down (Host)                          |
++-----------------------------+--------------------------------------+
+| <set>_down_ack.png          | Down (Acknowledged) (Host)           |
++-----------------------------+--------------------------------------+
+| <set>_down_dt.png           | Down (Downtime) (Host)               |
++-----------------------------+--------------------------------------+
+| <set>_error.png             | Error while fetching status          |
++-----------------------------+--------------------------------------+
+| <set>_ok.png                | Ok                                   |
++-----------------------------+--------------------------------------+
+| <set>_ok_dt.png             | Ok (Downtime)                        |
++-----------------------------+--------------------------------------+
+| <set>_pending.png           | Pending (Host)                       |
++-----------------------------+--------------------------------------+
+| <set>_unchecked.png         | Unchecked (Pending Service)          |
++-----------------------------+--------------------------------------+
+| <set>_unknown.png           | Unknown                              |
++-----------------------------+--------------------------------------+
+| <set>_unknown_ack.png       | Unknown (Acknowledged)               |
++-----------------------------+--------------------------------------+
+| <set>_unknown_dt.png        | Unknown (Downtime)                   |
++-----------------------------+--------------------------------------+
+| <set>_unreachable.png       | Unreachable (Host)                   |
++-----------------------------+--------------------------------------+
+| <set>_unreachable_ack.png   | Unreachable (Acknowledged) (Host)    |
++-----------------------------+--------------------------------------+
+| <set>_unreachable_dt.png    | Unreachable (Downtime) (Host)        |
++-----------------------------+--------------------------------------+
+| <set>_up.png                | Up (Host)                            |
++-----------------------------+--------------------------------------+
+| <set>_up_dt.png             | Up (Downtime) (Host)                 |
++-----------------------------+--------------------------------------+
+| <set>_warning.png           | Warning                              |
++-----------------------------+--------------------------------------+
+| <set>_warning_ack.png       | Warning (Acknowledged)               |
++-----------------------------+--------------------------------------+
+| <set>_warning_dt.png        | Warning (Downtime)                   |
++-----------------------------+--------------------------------------+
+
+chaque iconset est livré en deux versions:
+
+*  Version **Standard** : taille originale (ex: an 23x23 pixels)
+*  Version **Haute Définition** : taille HD, idéale pour redimensionner l'image via l'attribut icon_size (ex: an_hd 300x300 pixels)
 
 
-iconset std_medium
+iconset an
 ==================
 
-
-+-----------------------------------------------------------------------------+--------------------------------+
-| Filename                                                                    | Description                    |
-+=============================================================================+================================+
-| .. image :: /images/configuration/iconsets/std_medium_critical.png          | Critical state                 |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_critical_ack.png      | Acknowledged critical state    |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_critical_dt.png       | Critical state in downtime     |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_down.png              | Down state (Host)              |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_down_ack.png          | Acknowledged down state        |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_down_dt.png           | Down state in downtime         |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_error.png             | Error while fetching status    |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_ok.png                | OK state                       |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_ok_dt.png             | OK state in downtime           |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_pending.png           | PENDING state                  |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_unchecked.png         | Unchecked service (pending)    |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_unknown.png           | Unknown state                  |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_unknown_ack.png       | Acknowledged unknown state     |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_unknown_dt.png        | Unknown state in downtime      |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_unreachable.png       | Unreachable state (Host)       |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_unreachable_ack.png   | Acknowledged unreachable state |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_unreachable_dt.png    | Unreachable state in downtime  |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_up.png                | Up state (Host)                |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_up_dt.png             | Up state in downtime           |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_warning.png           | Warning state                  |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_warning_ack.png       | Acknowledged warning state     |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/std_medium_warning_dt.png        | Warning state in downtime      |
-+-----------------------------------------------------------------------------+--------------------------------+
-
-iconset computer
-==================
+.. image :: /images/configuration/iconsets/iconset_an.png 
 
 
-+-----------------------------------------------------------------------------+--------------------------------+
-| Filename                                                                    | Description                    |
-+=============================================================================+================================+
-| .. image :: /images/configuration/iconsets/computer_critical.png            | Critical state                 |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_critical_ack.png        | Acknowledged critical state    |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_critical_dt.png         | Critical state in downtime     |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_down.png                | Down state (Host)              |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_down_ack.png            | Acknowledged down state        |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_down_dt.png             | Down state in downtime         |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_error.png               | Error while fetching status    |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_ok.png                  | OK state                       |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_ok_dt.png               | OK state in downtime           |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_pending.png             | PENDING state                  |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_unchecked.png           | Unchecked service (pending)    |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_unknown.png             | Unknown state                  |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_unknown_ack.png         | Acknowledged unknown state     |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_unknown_dt.png          | Unknown state in downtime      |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_unreachable.png         | Unreachable state (Host)       |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_unreachable_ack.png     | Acknowledged unreachable state |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_unreachable_dt.png      | Unreachable state in downtime  |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_up.png                  | Up state (Host)                |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_up_dt.png               | Up state in downtime           |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_warning.png             | Warning state                  |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_warning_ack.png         | Acknowledged warning state     |
-+-----------------------------------------------------------------------------+--------------------------------+
-| .. image :: /images/configuration/iconsets/computer_warning_dt.png          | Warning state in downtime      |
-+-----------------------------------------------------------------------------+--------------------------------+
++--------------------------------+--------------------------------------+
+| Filename                       | Description                          |
++================================+======================================+
+| |an_critical|                  | Critical                             |
++--------------------------------+--------------------------------------+
+| |an_critical_ack|              | Critical (Acknowledged)              |
++--------------------------------+--------------------------------------+
+| |an_critical_dt|               | Critical (Downtime)                  |
++--------------------------------+--------------------------------------+
+| |an_down|                      | Down (Host)                          |
++--------------------------------+--------------------------------------+
+| |an_down_ack|                  | Down (Acknowledged) (Host)           |
++--------------------------------+--------------------------------------+
+| |an_down_dt|                   | Down (Downtime) (Host)               |
++--------------------------------+--------------------------------------+
+| |an_error|                     | Error while fetching status          |
++--------------------------------+--------------------------------------+
+| |an_ok|                        | Ok                                   |
++--------------------------------+--------------------------------------+
+| |an_ok_dt|                     | Ok (Downtime)                        |
++--------------------------------+--------------------------------------+
+| |an_pending|                   | Pending (Host)                       |
++--------------------------------+--------------------------------------+
+| |an_unchecked|                 | Unchecked (Pending Service)          |
++--------------------------------+--------------------------------------+
+| |an_unknown|                   | Unknown                              |
++--------------------------------+--------------------------------------+
+| |an_unknown_ack|               | Unknown (Acknowledged)               |
++--------------------------------+--------------------------------------+
+| |an_unknown_dt|                | Unreachable (Downtime) (Host)        |
++--------------------------------+--------------------------------------+
+| |an_unreachable|               | Unreachable (Host)                   |
++--------------------------------+--------------------------------------+
+| |an_unreachable_ack|           | Unreachable (Acknowledged) (Host)    |
++--------------------------------+--------------------------------------+
+| |an_unreachable_dt|            | Unreachable (Downtime) (Host)        |
++--------------------------------+--------------------------------------+
+| |an_up|                        | Up (Host)                            |
++--------------------------------+--------------------------------------+
+| |an_up_dt|                     | Up (Downtime) (Host)                 |
++--------------------------------+--------------------------------------+
+| |an_warning|                   | Warning                              |
++--------------------------------+--------------------------------------+
+| |an_warning_ack|               | Warning (Acknowledged)               |
++--------------------------------+--------------------------------------+
+| |an_warning_dt|                | Warning (Downtime)                   |
++--------------------------------+--------------------------------------+
+
+
+.. |an_critical|    image:: /images/configuration/iconsets/an_critical.png
+.. |an_critical_ack|    image:: /images/configuration/iconsets/an_critical_ack.png
+.. |an_critical_dt|    image:: /images/configuration/iconsets/an_critical_dt.png
+.. |an_down|    image:: /images/configuration/iconsets/an_down.png
+.. |an_down_ack|    image:: /images/configuration/iconsets/an_down_ack.png
+.. |an_down_dt|    image:: /images/configuration/iconsets/an_down_dt.png
+.. |an_error|    image:: /images/configuration/iconsets/an_error.png
+.. |an_ok|    image:: /images/configuration/iconsets/an_ok.png
+.. |an_ok_dt|    image:: /images/configuration/iconsets/an_ok_dt.png
+.. |an_pending|    image:: /images/configuration/iconsets/an_pending.png
+.. |an_unchecked|    image:: /images/configuration/iconsets/an_unchecked.png
+.. |an_unknown|    image:: /images/configuration/iconsets/an_unknown.png
+.. |an_unknown_ack|    image:: /images/configuration/iconsets/an_unknown_ack.png
+.. |an_unknown_dt|    image:: /images/configuration/iconsets/an_unknown_dt.png
+.. |an_unreachable|    image:: /images/configuration/iconsets/an_unreachable.png
+.. |an_unreachable_ack|    image:: /images/configuration/iconsets/an_unreachable_ack.png
+.. |an_unreachable_dt|    image:: /images/configuration/iconsets/an_unreachable_dt.png
+.. |an_up|    image:: /images/configuration/iconsets/an_up.png
+.. |an_up_dt|    image:: /images/configuration/iconsets/an_up_dt.png
+.. |an_warning|    image:: /images/configuration/iconsets/an_warning.png
+.. |an_warning_ack|    image:: /images/configuration/iconsets/an_warning_ack.png
+.. |an_warning_dt|   image:: /images/configuration/iconsets/an_warning_dt.png
