@@ -7,17 +7,9 @@ Voici toutes les fonctions associées aux cartes
 .. toctree::
    :maxdepth: 2
 
-   actions
-   host
-   service
-   hostgroup
-   servicegroup
    map
-   textbox
-   shape
-   line
+   objects/index
+   objects_appearance/index
+   stateless_objects/index
    template
-   container
-   iconset
-   widget
 
