@@ -57,18 +57,11 @@ liste des 22 fichiers
 | <set>_warning_dt.png        | Warning (Downtime)                   |
 +-----------------------------+--------------------------------------+
 
-chaque iconset est livré en deux versions:
+Chaque iconset est livré en deux versions:
 
-*  Version **Standard** : taille originale (ex: an 23x23 pixels)
-*  Version **Haute Définition** : taille HD, idéale pour redimensionner l'image via l'attribut icon_size (ex: an_hd 300x300 pixels)
-
-
-iconset an
-==================
-
-.. image :: /images/configuration/iconsets/iconset_an.png 
-
-
+*  Version **Standard** : taille originale (ex: iconset "an" 23x23 pixels)
+*  Version **Haute Définition** : taille HD, idéale pour redimensionner l'image via l'attribut icon_size (ex: iconset "an_hd" 300x300 pixels)
+   
 +--------------------------------+--------------------------------------+
 | Filename                       | Description                          |
 +================================+======================================+
@@ -140,3 +133,27 @@ iconset an
 .. |an_warning|    image:: /images/configuration/iconsets/an_warning.png
 .. |an_warning_ack|    image:: /images/configuration/iconsets/an_warning_ack.png
 .. |an_warning_dt|   image:: /images/configuration/iconsets/an_warning_dt.png
+
+
+iconset an
+==========
+
+*  Version **Standard** "an" : 25x25 pixels
+*  Version **Haute Définition** "an_hd" : 300x300 pixels
+
+.. image :: /images/configuration/iconsets/iconset_an.png 
+
+
+
+iconset switch
+================
+
+*  Version **Standard** "switch" : 70x70 pixels
+*  Version **Haute Définition** "switch_hd" : 400x400 pixels
+
+.. image :: /images/configuration/iconsets/iconset_switch.png 
+
+
+
+
+
