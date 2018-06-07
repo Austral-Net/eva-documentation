@@ -9,7 +9,6 @@ Les gadgets sont particulièrements adaptés pour représenter des services, mai
 Exemple de gadget pour un service Cpu:
 
 .. image :: /images/configuration/gadgets/cpu_speedometer.png 
-   :align: center 
 
 
 Modifier l'apparence d'une icône en gadget
@@ -49,61 +48,75 @@ cpu_speedometer
 ---------------
 
 .. image :: /images/configuration/gadgets/cpu_speedometer.png 
-   :align: center 
 
 cpu_usage
 ---------
 
 .. image :: /images/configuration/gadgets/cpu_usage.png 
-   :align: center 
 
 Esx-Cpu-Global
 ---------------
 
 .. image :: /images/configuration/gadgets/Esx-Cpu-Global.png 
-   :align: center 
 
 Esx-Memory-Global
 -----------------
 
 .. image :: /images/configuration/gadgets/Esx-Memory-Global.png 
-   :align: center 
 
 Esx-Vm-Count-Global
 -------------------
 
 .. image :: /images/configuration/gadgets/Esx-Vm-Count-Global.png 
-   :align: center 
 
 Datastore-Usage-Global
 ----------------------
 
 .. image :: /images/configuration/gadgets/Datastore-Usage-Global.png 
-   :align: center 
 
 Datastore-Latency-Global
 ------------------------
 
 .. image :: /images/configuration/gadgets/Datastore-Latency-Global.png 
-   :align: center 
 
 Datastore-Iops-Global
 ---------------------
 
 .. image :: /images/configuration/gadgets/Datastore-Iops-Global.png 
-   :align: center 
 
 Hardware-Pdu-Power-Usage
 ------------------------
 
 .. image :: /images/configuration/gadgets/Hardware-Pdu-Power-Usage.png 
-   :align: center 
 
-cpu_speedometer
----------------
+Os_Cpu
+------
 
-.. image :: /images/configuration/gadgets/cpu_speedometer.png 
-   :align: center 
+.. image :: /images/configuration/gadgets/Os_Cpu.png 
+
+Os_Memory
+---------
+
+.. image :: /images/configuration/gadgets/Os_Memory.png 
+
+printer_level
+-------------
+
+.. image :: /images/configuration/gadgets/printer_level.png 
+
+Hardware-Sensors-Serverscheck-Status
+------------------------------------
+
+.. image :: /images/configuration/gadgets/Hardware-Sensors-Serverscheck-Status-Flooding.png 
+.. image :: /images/configuration/gadgets/Hardware-Sensors-Serverscheck-Status-Power.png 
+.. image :: /images/configuration/gadgets/Hardware-Sensors-Serverscheck-Status-Door.png 
+
+Hardware-Sensors-Serverscheck
+------------------------------------
+
+.. image :: /images/configuration/gadgets/Hardware-Sensors-Serverscheck-Temperature.png 
+.. image :: /images/configuration/gadgets/Hardware-Sensors-Serverscheck-Humidity.png 
+
 
 
 
