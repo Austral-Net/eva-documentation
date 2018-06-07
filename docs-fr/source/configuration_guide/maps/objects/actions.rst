@@ -14,7 +14,7 @@ Afin de pouvoir cloner/déplacer/modifier/supprimer des objets de d'une carte, i
 .. image :: /images/configuration/menu_active_edit_mode_01.png
    :align: center 
 
-3. Cliquer sur **Editer la carte** ==> **Tout Bloquer/Débloquer**
+3. Le menu d’édition apparaît, il permet d’ajouter des objets sur la carte
 4. L’indicateur **Edit Mode!** apparait. Vous êtes en mode édition
 
 .. image :: /images/configuration/menu_active_edit_mode_02.png
@@ -22,14 +22,14 @@ Afin de pouvoir cloner/déplacer/modifier/supprimer des objets de d'une carte, i
 
 Vous pouvez maintenant cloner/déplacer/modifier/supprimer des objets.
 
-.. note:: Il ne faut pas oublier de désactiver le mode édition une fois les modifications terminées à l'aide du menu **Editer la carte** ==> **Tout Bloquer/Débloquer**
+.. note:: Il ne faut pas oublier de désactiver le mode édition une fois les modifications terminées à l'aide du menu **Tout Bloquer/Débloquer**
 
 
 *****************
 Ajouter un objet
 *****************
 
-L’ajout d’objet sur la carte se fait depuis le menu **Editer la carte** ==> **Ajouter...** . 3 catégories d’objets sont disponibles:
+L’ajout d’objet sur la carte se fait depuis le menu **Editer **Ajouter...** . 3 catégories d’objets sont disponibles:
 
 1. Icône
 2. Ligne

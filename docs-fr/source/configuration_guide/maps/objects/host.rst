@@ -4,13 +4,13 @@ Les hôtes
 
 Un hôte peut être représenté sour forme d'icône, de widget ou de ligne.
 
-La représentation la plus adaptée est l'icône.
+La représentation la plus commune est l'icône.
 
 *****************************
 Ajouter un objet de type hôte
 *****************************
 
-Tous les ajouts d'hôtes se font dans le menu **Editer la carte** ==> **Ajouter un icône** ==> **Host**.
+Tous les ajouts d'hôtes se font dans le menu **Ajouter un icône** ==> **Host**.
 
 .. image :: /images/configuration/map_add_icone_host_01.png
    :align: center 

@@ -1,13 +1,13 @@
-===========================
-Les Jeux d'icônes (iconset)
-===========================
+==========
+Les Icônes
+==========
 
-Un iconset est un ensemble de fichiers images qui représentent les différents statut que peut prendre un objet de type icône.
+Un Icône est un ensemble de fichiers images (iconset) qui représentent les différents statut que peut prendre un objet.
 
-Un iconset complet est composé de 22 fichiers.
+Un iconset complet est composé de 22 fichiers qui correspondent aux 22 statuts disponibles.
 
-liste des 22 fichiers
-=====================
+Liste des 22 statuts disponilbes
+================================
 
 +-----------------------------+--------------------------------------+
 | Nom du Fichier              | Statut                               |
@@ -111,7 +111,7 @@ Chaque iconset est livré en deux versions:
 +--------------------------------+--------------------------------------+
 
 
-.. |an_critical|    image:: /images/configuration/iconsets/an_critical.png
+.. |an_critical|    image:: /images/configuration/iconsets/an_critical.png 
 .. |an_critical_ack|    image:: /images/configuration/iconsets/an_critical_ack.png
 .. |an_critical_dt|    image:: /images/configuration/iconsets/an_critical_dt.png
 .. |an_down|    image:: /images/configuration/iconsets/an_down.png
@@ -135,23 +135,60 @@ Chaque iconset est livré en deux versions:
 .. |an_warning_dt|   image:: /images/configuration/iconsets/an_warning_dt.png
 
 
+Modifier l'icône d'un objet
+===========================
+
+Pour modifier l'icône d'un objet, faire un **clic droit sur l'objet** ==> **Modify Object**.
+
+Depuis l'onglet **Appearance**, s'assurer que le champ **view_type** est configuré sur **icon**.
+
+Cocher la case **iconset**, puis sélectionner le nouveau iconset depuis le **champ déroulant** 
+
+Onglet Appearance
+-----------------
+
++---------------------+------------------------+----------------------------------------------------------------------+
+| Valeur              | Par défaut             | Description                                                          |
++=====================+========================+======================================================================+
+| view_type           | icon                   | Cette option définit le type de rendu de cet objet. Les valeurs      |
+|                     |                        | possibles sont: "Icon ", "Line " ou "Gadget"                         |
++---------------------+------------------------+----------------------------------------------------------------------+
+| iconset             | Hérité(global)         | Choix du jeu d'icônes                                                |
++---------------------+------------------------+----------------------------------------------------------------------+
+| icon_size           | Hérité(nagvis.ini.php) | Changer la taille d'affichage du jeu d'icones sur la carte. Si elle  |
+|                     |                        | est laissée vide, les images IconSet seront affichées à leur taille  |
+|                     |                        | d'origine. Vous pouvez configurer cette option avec un seul entier   |
+|                     |                        | pour donner la largeur et la hauteur à la fois, mais vous pouvez     |
+|                     |                        | également fournir deux entiers séparés par des virgules pour         |
+|                     |                        | spécifier des valeurs différentes pour la largeur et la hauteur.     |
++---------------------+------------------------+----------------------------------------------------------------------+
+
+
+Bibliothèques d'icônes
+======================
+
+Il est possible de créer et d'ajouter de nouvelles icônes. 
+Des bibliothèques (iconset) sont fournies avec EVA. Voici la liste des icônes disponibles (cette liste est sujette à évolution):
+
+
 iconset an
-==========
+----------
 
 *  Version **Standard** "an" : 25x25 pixels
 *  Version **Haute Définition** "an_hd" : 300x300 pixels
 
 .. image :: /images/configuration/iconsets/iconset_an.png 
-
+   :align: center 
 
 
 iconset switch
-================
+--------------
 
 *  Version **Standard** "switch" : 70x70 pixels
 *  Version **Haute Définition** "switch_hd" : 400x400 pixels
 
 .. image :: /images/configuration/iconsets/iconset_switch.png 
+   :align: center 
 
 
 

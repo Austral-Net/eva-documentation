@@ -4,111 +4,103 @@ Les Lignes
 
 Les lignes permettent des créer des liens entre les éléments. Il existe 3 types de lignes:
 
-* Les lignes apatrides: une ligne simple sans statut ni données de performance
-* Les lignes dynamiques: une ligne dont la couleur change en fonction du statut d'un hôte ou d'un service
-* Les lignes weathermap: un ligne qui affiche une données de performance (métrique %, Mbps...) et qui change de couleur en fonction de sa valeur
 
-**************
-ligne apatride
-**************
+* **Les lignes dynamiques**: une ligne dont la couleur change en fonction du statut de la ressource
+* **Les lignes weathermap**: un ligne qui affiche une données de performance (métrique %, Mbps...) et qui change de couleur en fonction de sa valeur
+* **Les lignes apatrides**: une ligne simple sans statut ni données de performance
 
-Une ligne simple sans statut ni données de performance
+******************************
+Lignes Dynamique et Weathermap
+******************************
 
-.. image :: /images/configuration/map_line_stateless_collection.png
+Lignes Dynamiques
+=================
+
+**Les lignes dynamiques**: Une ligne dont la couleur change en fonction du statut d'un hôte ou d'un service
+
+.. image :: /images/configuration/map_line_stateful_collection.png
    :align: center 
 
-Les paramètres à retenir
-========================
+Options de configuration "line_type"
+------------------------------------
 
-* **line_type**: Modifier la forme de la ligne
-* **line_color**: Modifier la couleur de la ligne
-* **line_color_border**: Modifier la couleur de bordure de la ligne
++------------------------+--------------------------------------+
+| lignes                 | Description                          |
++========================+======================================+
+| \-------><-------\     | Flèches à l'intersection             |
++------------------------+--------------------------------------+
+| \--------------->\     | Flèche à une seule extrémité         |
++------------------------+--------------------------------------+
+| \----------------\     | Ligne simple sans flèche             |
++------------------------+--------------------------------------+
 
-Paramètres
-==========
+Lignes Weathermap
+=================
 
-Les paramètre suivants sont disponibles pour l'objet ligne apatride
+**Les lignes weathermap**: un ligne qui affiche une données de performance (métrique %, Mbps...) et qui change de couleur en fonction de sa valeur
 
-Onglet General
---------------
+.. image :: /images/configuration/map_line_weathermap_collection.png
+   :align: center 
 
-+--------------------------+----------------+------------------------------------------------------+
-| Valeur                   | Par défaut     | Description                                          |
-+==========================+================+======================================================+
-| x                        |                | coordonées sur l'axe des X                           |
-+--------------------------+----------------+------------------------------------------------------+
-| y                        |                | coordonées sur l'axe des Y                           |
-+--------------------------+----------------+------------------------------------------------------+
-| z                        |                | coordonées sur l'axe des Z (profondeur)              |
-+--------------------------+----------------+------------------------------------------------------+
-| object_id                |                | Identifiant unique de l'objet généré automatiquement |
-+--------------------------+----------------+------------------------------------------------------+
+Options de configuration "line_type"
+------------------------------------
+
++----------------------+---------------------------------------------------------------------+
+| lignes               | Description                                                         |
++======================+=====================================================================+
+| \---%---><---%---\   | Flèches à l'intersection + pourcentage. Nécessite un service qui    |
+|                      | renvoie des données de performances adaptées                        |
++----------------------+---------------------------------------------------------------------+
+| \--%+BW-><-%+BW--\   | Flèches à l'intersection + pourcentage + bande passante. Nécessite  |
+|                      | un service qui renvoie des données de performances adaptées         |
++----------------------+---------------------------------------------------------------------+
+| \---BW--><--BW---\   | Flèches à l'intersection + bande passante. Nécessite un service qui |
+|                      | renvoie des données de performances adaptées                        |
++----------------------+---------------------------------------------------------------------+
+
+Modifier l'apparence d'une ligne
+================================
+
+Pour modifier l'apparence d'une ligne, faire un **clic droit sur l'objet** ==> **Modify Object**.
+
+Depuis l'onglet **Appearance**, s'assurer que le champ **view_type** est configuré sur **line**.
+
+Cocher la case **line_type**, puis sélectionner le nouveau type de ligne depuis le **champ déroulant** 
 
 
 Onglet Appearance
 -----------------
 
-+------------------------+------------------------+----------------------------------------------------------------------+
-| Valeur                 | Par défaut             | Description                                                          |
-+========================+========================+======================================================================+
-| **line_type**          | Hérité(global)         | Spécifier le type de ligne (sans flèche, avec une flèche ou avec     |
-|                        |                        | deux flèches)                                                        |
-+------------------------+------------------------+----------------------------------------------------------------------+
-| line_cut               | 0.5                    | Les lignes avec deux parties ont un espace au milieu de la ligne.    |
-|                        |                        | Cela équivaut à une valeur de coupe de ligne de "0.5 ". Il est       |
-|                        |                        | possible de déplacer la coupe en changeant cette valeur. Les valeurs |
-|                        |                        | valides sont 0.0 à 1.0.                                              |
-+------------------------+------------------------+----------------------------------------------------------------------+
-| line_witdh             | Hérité(global)         | Définir la largeur de la ligne en px                                 |
-+------------------------+------------------------+----------------------------------------------------------------------+
-| **line_color**         | Hérité(global)         | Définir la couleur de la ligne                                       |
-+------------------------+------------------------+----------------------------------------------------------------------+
-| **line_color_border**  | Hérité(global)         | Définir la couleur de bordure de la ligne                            |
-+------------------------+------------------------+----------------------------------------------------------------------+
++---------------------+------------------------+----------------------------------------------------------------------+
+| Valeur              | Par défaut             | Description                                                          |
++=====================+========================+======================================================================+
+| **view_type**       | icon                   | Cette option définit le type de rendu de cet objet. Les valeurs      |
+|                     |                        | possibles sont: "Icon ", "Line " ou "Gadget"                         |
++---------------------+------------------------+----------------------------------------------------------------------+
+| **line_type**       | Hérité(global)         | Spécifier le type de ligne (sans flèche, avec une flèche ou avec     |
+|                     |                        | deux flèches)                                                        |
++---------------------+------------------------+----------------------------------------------------------------------+
+| line_cut            | 0.5                    | Les lignes avec deux parties ont un espace au milieu de la ligne.    |
+|                     |                        | Cela équivaut à une valeur de coupe de ligne de "0.5 ". Il est       |
+|                     |                        | possible de déplacer la coupe en changeant cette valeur. Les valeurs |
+|                     |                        | valides sont 0.0 à 1.0.                                              |
++---------------------+------------------------+----------------------------------------------------------------------+
+| line_witdh          | Hérité(global)         | Définir la largeur de la ligne en px                                 |
++---------------------+------------------------+----------------------------------------------------------------------+
+| line_weather_colors | Hérité(global)         | Cela définit les couleurs des couleurs weathermap en fonction des    |
+|                     |                        | différents niveaux de pourcentage.                                   |
++---------------------+------------------------+----------------------------------------------------------------------+
 
+**************
+ligne apatride
+**************
 
-Onglet Actions
---------------
-
-+--------------------+------------------------+------------------------------------------------------------------------+
-| Valeur             | Par défaut             | Description                                                            |
-+====================+========================+========================================================================+
-| context_menu       | Hérité(nagvis.ini.php) | Activer/Désactiver le menu contextuel pour cet objet.                  |
-+--------------------+------------------------+------------------------------------------------------------------------+
-| context_template   | Hérité(nagvis.ini.php) | *Context template* pour cet objet.                                     |
-+--------------------+------------------------+------------------------------------------------------------------------+
-| hover_menu         | Hérité(nagvis.ini.php) | Activer/Désactiver le *hover menu*                                     |
-+--------------------+------------------------+------------------------------------------------------------------------+
-| url                |                        | URL à laquelle l'icône doit être liée. Le lien par défaut est pour les |
-|                    |                        | CGI Nagios. Les macros [host_name], [htmlcgi] et [htmlbase] sont       |
-|                    |                        | disponibles. La valeur peut être définie sur "#" pour désactiver le    |
-|                    |                        | lien.                                                                  |
-+--------------------+------------------------+------------------------------------------------------------------------+
-| url_targert        | _self                  | Cible du lien Icône, cette option utilise <a target=""> (_self est la  |
-|                    |                        | même fenêtre). La macro [name] est disponible.                         |
-+--------------------+------------------------+------------------------------------------------------------------------+
+La ligne apatride est un objet spécial sans statut. Détails de la configuration par :ref:`ici<apatride_line>`
 
 
 
-Onglet Worldmap
----------------
-
-+----------+------------+----------------------------------------------------------+
-| Valeur   | Par défaut | Description                                              |
-+==========+============+==========================================================+
-| min_zoom | ?          | Valeur de zoom minimum. Doit être compris entre 2 et 18. |
-+----------+------------+----------------------------------------------------------+
-| max_zoom | ?          | Valeur de zoom maximum. Doit être compris entre 2 et 18. |
-+----------+------------+----------------------------------------------------------+
 
 
-***************
-ligne dynamique
-***************
 
-Une ligne dont la couleur change en fonction du statut d'un hôte ou d'un service
-
-.. image :: /images/configuration/map_line_stateful_collection.png
-   :align: center 
 
 

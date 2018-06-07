@@ -10,7 +10,7 @@ La représentation la plus adaptée dépend de la nature du service et des donn�
 Ajouter un objet de type service
 ********************************
 
-Tous les ajouts de service se font dans le menu **Editer la carte** ==> **Ajouter un icône** ==> **Service**.
+Tous les ajouts de service se font dans le menu **Ajouter un icône** ==> **Service**.
 
 .. image :: /images/configuration/map_add_icone_service_01.png
    :align: center 
