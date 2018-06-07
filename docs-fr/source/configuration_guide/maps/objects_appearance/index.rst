@@ -9,5 +9,5 @@ Voici les styles possible pour les objets
 
    iconset
    line
-   widget
+   gadget
 

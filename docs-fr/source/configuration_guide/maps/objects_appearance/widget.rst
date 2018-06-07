@@ -1,5 +1,0 @@
-===========
-Les widgets
-===========
-
-Lorem Ipsum

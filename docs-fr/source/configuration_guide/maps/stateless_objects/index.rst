@@ -1,8 +1,8 @@
-=================================
-Les Objets apatride (sans statut)
-=================================
+===================
+Les Objets Spéciaux
+===================
 
-Voici toutes les fonctions associées aux cartes
+Voici la liste des objets spéciaux disponibles
 
 .. toctree::
    :maxdepth: 3
