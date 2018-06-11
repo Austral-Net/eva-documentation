@@ -44,78 +44,205 @@ Onglet Appearance
 Biliothèque de Gagets
 =====================
 
-cpu_speedometer
----------------
+Gadgets génériques pour services
+--------------------------------
 
-.. image :: /images/configuration/gadgets/cpu_speedometer.png 
+00_Service_Generic_Percent_Speed_Meter
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-cpu_usage
----------
+.. image :: /images/configuration/gadgets/00_Service_Generic_Percent_Speed_Meter.png 
 
-.. image :: /images/configuration/gadgets/cpu_usage.png 
+*Utilisation*:
 
-Esx-Cpu-Global
----------------
+* Prise en charge de l'option gadget_scale: **oui**
+* Prise en charge de l'option gadgets_opts: **non**
 
-.. image :: /images/configuration/gadgets/Esx-Cpu-Global.png 
+00_Service_Generic_Percent_Gauge
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image :: /images/configuration/gadgets/00_Service_Generic_Percent_Gauge_Horizontal.png 
+
+.. image :: /images/configuration/gadgets/00_Service_Generic_Percent_Gauge_Vertical.png 
+
+*Utilisation*:
+
+* Prise en charge de l'option gadget_scale: **oui**
+* Prise en charge de l'option gadgets_opts: **oui**
+* Version Horizontale: par défaut
+* Version Verticale: configurer l'option **gadgets_opts** avec la valeur **vertical**
+
+00_Service_Generic_Size_Gauge
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image :: /images/configuration/gadgets/00_Service_Generic_Size_Gauge_Horizontal.png 
+
+.. image :: /images/configuration/gadgets/00_Service_Generic_Size_Gauge_Vertical.png 
+
+*Utilisation*:
+
+* Prise en charge de l'option gadget_scale: **oui**
+* Prise en charge de l'option gadgets_opts: **oui**
+* Version Horizontale: par défaut
+* Version Verticale: configurer l'option **gadgets_opts** avec la valeur **vertical**
+
+00_Service_Generic_Size_Pie
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image :: /images/configuration/gadgets/00_Service_Generic_Size_Pie.png 
+
+*Utilisation*:
+
+* Prise en charge de l'option gadget_scale: **oui**
+* Prise en charge de l'option gadgets_opts: **non**
+
+00_Service_Generic_Value_Text
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image :: /images/configuration/gadgets/00_Service_Generic_Value_Text_Circle.png 
+
+.. image :: /images/configuration/gadgets/00_Service_Generic_Value_Text_Square.png 
+
+*Utilisation*:
+
+* Prise en charge de l'option gadget_scale: **oui**
+* Prise en charge de l'option gadgets_opts: **oui**
+* Choix de la données de perfomrance: 
+	* Configurer l'option **gadgets_opts** avec la valeur **label=nom_perfdata**
+	* Configurer l'option **gadgets_opts** avec la valeur **description=Ma_description_perssonalisee**
+	* Exemple: **label=connection_time description=Temps_de_Connexion**
+  
+
+
+Gadgets spécifiques pour ESX
+----------------------------
 
 Esx-Memory-Global
------------------
+^^^^^^^^^^^^^^^^^
 
 .. image :: /images/configuration/gadgets/Esx-Memory-Global.png 
 
+*Utilisation*:
+
+* Prise en charge de l'option gadget_scale: **oui**
+* Prise en charge de l'option gadgets_opts: **non**
+
 Esx-Vm-Count-Global
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 .. image :: /images/configuration/gadgets/Esx-Vm-Count-Global.png 
 
+*Utilisation*:
+
+* Prise en charge de l'option gadget_scale: **oui**
+* Prise en charge de l'option gadgets_opts: **non**
+
 Datastore-Usage-Global
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 .. image :: /images/configuration/gadgets/Datastore-Usage-Global.png 
 
+*Utilisation*:
+
+* Prise en charge de l'option gadget_scale: **oui**
+* Prise en charge de l'option gadgets_opts: **non**
+
 Datastore-Latency-Global
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image :: /images/configuration/gadgets/Datastore-Latency-Global.png 
 
+*Utilisation*:
+
+* Prise en charge de l'option gadget_scale: **oui**
+* Prise en charge de l'option gadgets_opts: **non**
+
 Datastore-Iops-Global
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 .. image :: /images/configuration/gadgets/Datastore-Iops-Global.png 
 
+*Utilisation*:
+
+* Prise en charge de l'option gadget_scale: **oui**
+* Prise en charge de l'option gadgets_opts: **non**
+
+
+Gadgets spécifiques Pour PDU
+----------------------------
+
 Hardware-Pdu-Power-Usage
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image :: /images/configuration/gadgets/Hardware-Pdu-Power-Usage.png 
 
-Os_Cpu
-------
+*Utilisation*:
 
-.. image :: /images/configuration/gadgets/Os_Cpu.png 
+* Prise en charge de l'option gadget_scale: **oui**
+* Prise en charge de l'option gadgets_opts: **non**
 
-Os_Memory
----------
-
-.. image :: /images/configuration/gadgets/Os_Memory.png 
-
-printer_level
--------------
-
-.. image :: /images/configuration/gadgets/printer_level.png 
+Gadgets spécifiques pour Sondes Environmentales
+-----------------------------------------------
 
 Hardware-Sensors-Serverscheck-Status
-------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image :: /images/configuration/gadgets/Hardware-Sensors-Serverscheck-Status-Flooding.png 
 .. image :: /images/configuration/gadgets/Hardware-Sensors-Serverscheck-Status-Power.png 
 .. image :: /images/configuration/gadgets/Hardware-Sensors-Serverscheck-Status-Door.png 
 
+*Utilisation*:
+
+* Prise en charge de l'option gadget_scale: **oui**
+* Prise en charge de l'option gadgets_opts: **non**
+
 Hardware-Sensors-Serverscheck
-------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image :: /images/configuration/gadgets/Hardware-Sensors-Serverscheck-Temperature.png 
 .. image :: /images/configuration/gadgets/Hardware-Sensors-Serverscheck-Humidity.png 
+
+*Utilisation*:
+
+* Prise en charge de l'option gadget_scale: **oui**
+* Prise en charge de l'option gadgets_opts: **non**
+
+Gadgets spécifiques pour Imprimantes
+------------------------------------
+
+printer_level
+^^^^^^^^^^^^^
+
+.. image :: /images/configuration/gadgets/printer_level.png 
+
+*Utilisation*:
+
+* Prise en charge de l'option gadget_scale: **non**
+* Prise en charge de l'option gadgets_opts: **non**
+
+Gadgets spécifiques pour Windows
+--------------------------------
+
+Os_Cpu
+^^^^^^
+
+.. image :: /images/configuration/gadgets/Os_Cpu.png 
+
+*Utilisation*:
+
+* Prise en charge de l'option gadget_scale: **oui**
+* Prise en charge de l'option gadgets_opts: **non**
+
+Os_Memory
+^^^^^^^^^
+
+.. image :: /images/configuration/gadgets/Os_Memory.png 
+
+*Utilisation*:
+
+* Prise en charge de l'option gadget_scale: **oui**
+* Prise en charge de l'option gadgets_opts: **non**
+
+
 
 
 
