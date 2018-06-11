@@ -2,5 +2,8 @@
 .DS_Store
 doc/fr/_static/.DS_Store
 doc/fr/_static/images/.DS_Store
-doc/fr/_static/images/.DS_Store
-doc/fr/_static/.DS_Store
+docs-fr/build
+docs-fr/build/*
+docs-fr/make.bat
+docs-fr/Makefile
+
