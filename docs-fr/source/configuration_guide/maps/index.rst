@@ -11,5 +11,4 @@ Voici toutes les fonctions associées aux cartes
    objects/index
    objects_appearance/index
    stateless_objects/index
-   template
 
