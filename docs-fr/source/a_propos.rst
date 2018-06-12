@@ -2,37 +2,32 @@
 A propos
 ==========================
 
-Centreon est un logiciel libre de supervision Open Source, édité par la 
-société française Centreon. Il mesure la disponibilité et la performance 
-des couches applicatives, du service utilisateur jusqu’aux ressources matérielles.
+EVA est une solution de visualisation de données de supervision édité par la 
+société Austral Net.
+
+Né de la volonté de mettre à disposition des vues simples et intuitive, EVA est maintenant "le" portail unique de visualisation de vos données de supervision. La solution permet d'exploiter des données provenant de plusieurs outils qui ont déjà fait leurs preuves dans le domaine de la supervision: Centreon, H5 Audits, Fusion Inventory, Ntopng...
 
 
-Centreon est un puissant outillage destiné aux administrateurs et exploitants 
-du service de supervision. Il intègre depuis 
-2012 son propre moteur de collecte (Centreon Engine) et gestionnaire d’événements 
-(Centreon Broker).
+Cartographie du système d'information
+=====================================
+
+Une organisation sous forme de **carte drill-down**, directement éditables depuis l’interface web, offrant de nombreuses possibilité de **modélisation de votre système d'information**. Vue techniques, réseaux, géographiques, métier… tout est possible et adaptable à votre besoin et votre activité
 
 
-Au-delà des concepts de configuration qui sont les plus évolués dans l’écosystème 
-Nagios, Centreon apporte de nombreuses fonctionnalités telles que la consultation 
-de l'état des services et des machines supervisées, la métrologie, le reporting, 
-l'accès aux évènements de supervision, la gestion avancée des utilisateurs via des 
-listes de contrôle d’accès (ACL), etc.
+Des cartes interactives
+=======================
+
+Les cartes sont le point de départ de **l’exploitation de vos données de supervision**. Statut détaillées, graphiques de performances, historiques des évènement, actions d’exploitation sont autant de possibilités disponibles depuis les vues
 
 
-Des modules complémentaires issus de la communauté et de l’éditeur permettent 
-également d’étendre les fonctions. On trouve par exemple un outil de BI, de la 
-cartographie et de nombreuses API permettant d’interagir avec Centreon, comme 
-l’automatisation de la gestion de configuration.
+A chacun ses cartes
+===================
+
+Il es simple et rapide de créer une **arborescence** complète et de la mettre à disposition d’un nouvel utilisateur. Chaque utilisateur a accès uniquement aux cartes qui le concerne et qui sont **adaptèes à son niveau d'intervention**
 
 
-Solution mature, fiable et innovante, Centreon se démarque notamment par sa capacité 
-à offrir un socle de fonctions adaptées à la vision « métier » exigée par les 
-responsables, en structurant des données IT essentielles et stratégiques (disponibilité, 
-capacité, maintenabilité, fiabilité).
+Bibliothèques d’objet
+=====================
 
+De **nombreux objets sont disponibles** et directement réutilisables (images, jeux d’icônes, widgets) lors de la fabrication de vos vues. La possibilité de créer et **d’importer vos propres objets** permet un personnalisation sans limites
 
-La distribution sans limite et la performance du système de collecte de données sont 
-également des points forts de la suite logicielle. Centreon répond aux contraintes 
-de montée en charge, de cloisonnement réseau, de sites géographiquement éclatés et 
-de bande passantes limitées.
