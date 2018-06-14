@@ -1,9 +1,7 @@
-Bienvenue dans la documentation EVA !
-==========================================
+Bienvenue sur la documentation EVA !
+====================================
 
-EVA est un logiciel open source qui vous permet de visualiser des données de supervision de l'ensemble des éléments de votre système d'informations.
-
-poinp
+EVA est un logiciel qui vous permet de visualiser des données de supervision de l'ensemble des éléments de votre système d'informations.
 
 Sommaire :
 
@@ -18,6 +16,6 @@ Sommaire :
 Ressources en ligne supplémentaires :
 
 * `Version Cloud <https://eva.austral-net.com>`_
-* `Présentation de la solution <http://www.austral-net.com/fr/solutions/>`_
+* `Présentation de la solution <http://www.austral-net.com/fr/solutions/l-hypervision-avec-eva>`_
 
 

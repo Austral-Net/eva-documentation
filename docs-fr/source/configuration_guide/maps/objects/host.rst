@@ -1,5 +1,5 @@
 =========
-Les hôtes
+Les Hôtes
 =========
 
 Un hôte peut être représenté sour forme d'icône, de widget ou de ligne.

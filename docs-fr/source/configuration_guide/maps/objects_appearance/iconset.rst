@@ -1,8 +1,10 @@
+.. _iconset:
+
 ==========
 Les Icônes
 ==========
 
-Un Icône est un ensemble de fichiers images (iconset) qui représentent les différents statut que peut prendre un objet.
+Une Icône est un ensemble de fichiers images (iconset) qui représentent les différents statut que peut prendre un objet.
 
 Un iconset complet est composé de 22 fichiers qui correspondent aux 22 statuts disponibles.
 

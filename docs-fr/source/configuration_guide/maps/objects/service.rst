@@ -1,5 +1,5 @@
 ============
-Les services
+Les Services
 ============
 
 Un service peut être représenté sour forme d'icône, de gadget ou de ligne.

@@ -1,5 +1,5 @@
 =============
-Les container
+Les Container
 =============
 
 L'objet Container permet d'afficher une forme ou un symbole. L'objet Container peut être déplacé et positionné n'importe où sur la carte afin d'améliorer la mise en page. Une liste de formes et symboles est fournie avec la solution EVA.

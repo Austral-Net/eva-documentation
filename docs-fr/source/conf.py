@@ -19,12 +19,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'EVA documentation'
-copyright = '2018, Ludovic Grondin'
+project = 'Documentation EVA'
+copyright = '2018, Austral Net'
 author = 'Ludovic Grondin'
 
 # The short X.Y version
-version = ''
+version = '1.1.3'
 # The full version, including alpha/beta/rc tags
 release = '1.1.3'
 

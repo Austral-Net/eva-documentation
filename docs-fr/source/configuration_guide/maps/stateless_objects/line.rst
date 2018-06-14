@@ -1,7 +1,7 @@
 .. _apatride_line:
 
 ==========
-Les lignes
+Les Lignes
 ==========
 
 **************

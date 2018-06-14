@@ -1,5 +1,5 @@
 ===========
-Les textbox
+Les Textbox
 ===========
 
 Une textbox permet d'afficher un texte simple ou du HTML.
