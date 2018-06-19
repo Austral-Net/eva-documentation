@@ -173,25 +173,60 @@ Il est possible de créer et d'ajouter de nouvelles icônes.
 Des bibliothèques (iconset) sont fournies avec EVA. Voici la liste des icônes disponibles (cette liste est sujette à évolution):
 
 
-iconset an
-----------
+00_Std_Basic
+------------
 
-*  Version **Standard** "an" : 25x25 pixels
-*  Version **Haute Définition** "an_hd" : 300x300 pixels
+*  Version **Standard** "00_Std_Basic_SD" : 25x25 pixels
+*  Version **Haute Définition** "00_Std_Basic_HD" : 400x400 pixels
 
-.. image :: /images/configuration/iconsets/iconset_an.png 
+.. image :: /images/configuration/iconsets/iconset_00_Std_Basic.png 
    :align: center 
 
 
-iconset switch
---------------
+00_Std_Switch
+-------------
 
-*  Version **Standard** "switch" : 70x70 pixels
-*  Version **Haute Définition** "switch_hd" : 400x400 pixels
+*  Version **Standard** "00_Std_Switch_HD" : 70x70 pixels
+*  Version **Haute Définition** "00_Std_Switch_SD" : 400x400 pixels
 
-.. image :: /images/configuration/iconsets/iconset_switch.png 
+.. image :: /images/configuration/iconsets/iconset_00_Std_Switch.png 
    :align: center 
 
+00_Std_Computer
+---------------
+
+*  Version **Standard** "00_Std_Computer_SD" : 70x70 pixels
+*  Version **Haute Définition** "00_Std_Computer_HD" : 400x400 pixels
+
+.. image :: /images/configuration/iconsets/iconset_00_Std_Computer.png 
+   :align: center 
+
+00_Std_Firewall
+---------------
+
+*  Version **Standard** "00_Std_Firewall_SD" : 70x70 pixels
+*  Version **Haute Définition** "00_Std_Firewall_HD" : 400x400 pixels
+
+.. image :: /images/configuration/iconsets/iconset_00_Std_Firewall.png 
+   :align: center 
+
+00_Std_Router
+-------------
+
+*  Version **Standard** "00_Std_Router_SD" : 70x70 pixels
+*  Version **Haute Définition** "00_Std_Router_HD" : 400x400 pixels
+
+.. image :: /images/configuration/iconsets/iconset_00_Std_Router.png 
+   :align: center 
+
+00_Std_Wifi
+-----------
+
+*  Version **Standard** "00_Std_Wifi_SD" : 70x70 pixels
+*  Version **Haute Définition** "00_Std_Wifi_HD" : 400x400 pixels
+
+.. image :: /images/configuration/iconsets/iconset_00_Std_Wifi.png 
+   :align: center 
 
 
 
