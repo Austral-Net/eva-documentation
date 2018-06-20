@@ -110,8 +110,30 @@ Gadgets génériques pour services
 	* Configurer l'option **gadgets_opts** avec la valeur **label=nom_perfdata**
 	* Configurer l'option **gadgets_opts** avec la valeur **description=Ma_description_perssonalisee**
 	* Exemple: **label=connection_time description=Temps_de_Connexion**
+	  
+
+Gadgets génériques pour cartes
+------------------------------
+	  
+04_Map_Circle_Icon
+^^^^^^^^^^^^^^^^^^
+
+.. image :: /images/configuration/gadgets/04_Map_Circle_Icon.png 
+
+*Utilisation*:
+
+* Prise en charge de l'option gadget_scale: **oui**
+* Prise en charge de l'option gadgets_opts: **oui**
+* Choix de l'icone: 
+	* Configurer l'option **gadgets_opts** avec la valeur **nom_icone**
+	* Exemple: **application** ou **network**
   
 
+liste des icônes disponibles : |icon_link|
+
+.. |icon_link| raw:: html
+
+   <a href="http://documentation.austral-net.com/icons/" target="_blank">catalogue d'icônes</a>
 
 Gadgets spécifiques pour ESX
 ----------------------------
