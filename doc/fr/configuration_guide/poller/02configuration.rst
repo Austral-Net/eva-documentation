@@ -11,7 +11,7 @@ Une fois l'installation réalisée, il faut intégrer ce collecteur distant dans
 * Entrez l'adresse IP du collecteur dans le champ **Adresse IP**.
 * Activez le collecteur en cliquant sur **Activé** dans le champ **Statut**.
 
-.. image:: /images/guide_utilisateur/configuration/10advanced_configuration/07addpoller.png
+.. image:: doc/fr/images/guide_utilisateur/configuration/10advanced_configuration/07addpoller.png
    :align: center
 
 #. Rendez-vous dans le menu **Configuration > Collecteur > Configuration du moteur de collecte**
